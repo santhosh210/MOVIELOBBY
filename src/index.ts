@@ -3,7 +3,6 @@ import express, { Response } from "express";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import moviesRouter from "./routes/movies";
-import { verify } from "crypto";
 import verifyToken from "./middlewares/authMiddleware";
 
 const app = express();
