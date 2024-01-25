@@ -1,11 +1,9 @@
-import { body } from "express-validator";
-import express, { Request, Response } from "express";
+import express from "express";
 import * as moviesController from "../controllers/movies";
 import verifyToken from "../middlewares/authMiddleware";
 import { generateToken } from "../middlewares/generateToken";
 import { response200 } from "../helpers/responses/sucessResponse";
 import { internalServerResponse } from "../helpers/responses/serverErrorResponse";
-import { req } from "../typings/global";
 import { Requests } from "../middlewares/validateRequest";
 import { commonGetValidationSchema } from "../validationSchemas/commonGetRequestVs";
 import { commonMovieByIdValidationSchema } from "../validationSchemas/commonMovieByIdVs";

@@ -1,6 +1,5 @@
 import { body, ValidationChain } from "express-validator";
 import Movie from "../models/Movie";
-import { badRequest } from "../helpers/responses/errorResponse";
 
 export const createMovieValidationSchema: ValidationChain[] = [
   body("title")

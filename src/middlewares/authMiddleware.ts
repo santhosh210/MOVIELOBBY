@@ -1,5 +1,5 @@
 import * as jwt from "jsonwebtoken";
-import { Request, Response, NextFunction } from "express";
+import { Response, NextFunction } from "express";
 import { req } from "../typings/global";
 import { unauthorized } from "../helpers/responses/errorResponse";
 import dotenv from "dotenv";
