@@ -1,12 +1,8 @@
-// Import the custom request interface from the typings directory
-import { req } from "./typings/global.d";
-
 // Import required modules and dependencies
-import express, { Response } from "express";
+import express from "express";
 import mongoose from "mongoose";
 import bodyParser from "body-parser";
 import moviesRouter from "./routes/movies";
-import verifyToken from "./middlewares/authMiddleware";
 
 // Create an instance of the Express application
 const app = express();
