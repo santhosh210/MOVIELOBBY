@@ -1,14 +1,14 @@
 {
   "name": "movie-lobby-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Api for movie lobby for OTT applications.This lobby has a collection of movies with genere,rating,and streaminglink",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "start": "nodemon src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Santhosh Kumar Konda",
   "license": "ISC",
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
